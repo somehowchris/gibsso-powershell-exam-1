@@ -1,0 +1,1 @@
+Get-Acl gibt ein oder mehere Object zurück, welche Informationen zu Dateien und Ressourcen beinhalten. So kann unteranderem herausgefunden werden wer Rechte hat und wer nicht für die jeweilige Datei oder Ressource.

@@ -1,0 +1,1 @@
+(Get-Acl -Path C:\temp\test.txt).Access | Select-Object IdentityReference, FileSystemRights | ft

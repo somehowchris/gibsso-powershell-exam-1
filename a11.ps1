@@ -1,0 +1,1 @@
+(Get-Process).Threads.Count

@@ -1,0 +1,1 @@
+Get-ChildItem -Path 'c:\windows' -Recurse -Force | Where-Object {$_.Length -ge 1000 -and $_.Extension -eq '.gif'}

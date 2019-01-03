@@ -1,0 +1,1 @@
+ Get-Command -Verb Set | Where-Object {$_.Noun -notlike "Net"}

@@ -1,0 +1,1 @@
+1..100 | ForEach-Object{ [math]::Pow($_,2)}

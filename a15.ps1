@@ -1,0 +1,1 @@
+(Get-Process | Measure-Object -Property CPU -Sum).Sum

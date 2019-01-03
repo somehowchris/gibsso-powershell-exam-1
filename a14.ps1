@@ -1,0 +1,1 @@
+Get-PSDrive | foreach{ Get-ChildItem -Recurse -Path $_.Root | Where-Object{$_.Name -eq 'test.txt'} | Select-Object PSDrive}
